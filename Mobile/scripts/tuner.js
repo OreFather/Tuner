@@ -1498,7 +1498,7 @@ Tuner.Ui.Debug.prototype.update = function()
 	diff_cents = (typeof diff_cents == 'number') ? diff_cents.toFixed(2) : diff_cents;
 
 	$('.tuner-data.note-index').html(number);
-	$('tuner-data note').html(name);
+	$('.cracker').html(name);
 	$('.tuner-data.octave').html(octave);
 	$('.tuner-data.diff').html(diff);
 	$('.tuner-data.diff_cents').html(diff_cents);
